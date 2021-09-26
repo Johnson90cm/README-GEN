@@ -1,6 +1,6 @@
 
-  # Project Title 1
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # Project Title: 2
+  [![License: GPL]
 
   ### Table of Contents
   * [Description](#description)
@@ -10,24 +10,24 @@
   * [License](#licence)
 
   ## Description
-  1
+  2
 
   ## Installation
-  1
+  3
 
   ## Useage
-  1
+  4
 
   ## Credits
-  1
+  4
 
   ## License
-  This application is covered under the MIT License
+  This application is covered under the GPL License
 
   ## Test
-  1
+  4
 
   ## Questions? 
   Contact: 
-  1
+  2
   1
