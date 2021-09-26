@@ -14,7 +14,7 @@
   It will generate a readme based on what you input in the console
 
   ## Demo
-  ![DEMO](./README-GENERATOR.mp4)
+  ![DEMO](https://drive.google.com/file/d/1-RRJD4Y4eAxpx5nW8K7uaA_YV4vOoMQD/preview)
 
   ## Installation
   Install Node, NPM, run index.js
