@@ -88,10 +88,9 @@ inquirer.prompt(
 
 .then(({ title, description, installation, usage, credits, license, tests, github, email }) => {
 
-  const template = 
   `
-  # Project Title: ${title}
   [![License: ${license}](https://img.shields.io/badge/License-MIT-yellow.svg)]
+
 
   ### Table of Contents
   * [Description](#description)
