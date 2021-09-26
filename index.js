@@ -89,7 +89,7 @@ inquirer.prompt(
 .then(({ title, description, installation, usage, credits, license, tests, github, email }) => {
 var template = 
   `
-  [![License: ${license}](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  ![License: ${license}(https://img.shields.io/badge/License-MIT-yellow.svg)]
 
   # Project Title: ${title}
 
@@ -129,7 +129,7 @@ var template =
 
 function createNewFile(file, data) {
 
-    fs.writeFile('./README.md', data, (err) => {
+    fs.writeFile('./dist/README.md', data, (err) => {
     if (err) {
         console.log(err)
     }

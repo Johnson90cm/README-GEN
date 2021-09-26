@@ -1,7 +1,7 @@
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  ![License: MIT(https://img.shields.io/badge/License-MIT-yellow.svg)]
 
-  # Project Title: 1234123
+  # Project Title: Readme Generator
 
   ### Table of Contents
   * [Description](#description)
@@ -11,24 +11,27 @@
   * [License](#licence)
 
   ## Description
-  1234
+  It will generate a readme based on what you input in the console
+
+  ## Demo
+  ![DEMO](./README-GENERATOR.mp4)
 
   ## Installation
-  1234
+  Install Node, NPM, run index.js
 
   ## Useage
-  1234
+  It is made to save you time in generating a readme for your github
 
   ## Credits
-  1234
+  just me
 
   ## License
   This application is covered under the MIT License
 
   ## Test
-  123412
+  no test
 
   ## Questions? 
   Contact: 
-  1234
-  1234
+  johnson90cm
+  johnson90.cm@gmail.com
