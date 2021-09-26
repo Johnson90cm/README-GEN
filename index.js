@@ -64,9 +64,10 @@ inquirer.prompt(
 }) => {
   const template = 
   `
-  # Project Title
-  ${title}
+  # Project Title ${title}
+  [![License: ${license}](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+  ### Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usesage)
@@ -86,7 +87,7 @@ inquirer.prompt(
   ${credits}
 
   ## License
-  [![License: ${license}](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+`
   
   createNewFile(title,template);
 });

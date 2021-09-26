@@ -1,7 +1,8 @@
 
-  # Project Title
-  1
+  # Project Title 1
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+  ### Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usesage)
@@ -9,16 +10,15 @@
   * [License](#licence)
 
   ## Description
-  1
+  2
 
   ## Installation
-  1
+  3
 
   ## Useage
-  1
+  4
 
   ## Credits
-  1
+  5
 
   ## License
-  [![MIT: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
