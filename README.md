@@ -1,6 +1,7 @@
 
-  [![License: GPL](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  [!License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+  Project Title: Coolstuff
 
   ### Table of Contents
   * [Description](#description)
@@ -10,24 +11,24 @@
   * [License](#licence)
 
   ## Description
-  5
+  I like
 
   ## Installation
-  5
+  it
 
   ## Useage
-  5
+  alot
 
   ## Credits
-  5
+  i guess
 
   ## License
-  This application is covered under the GPL License
+  This application is covered under the MIT License
 
   ## Test
-  5
+  none at this time
 
   ## Questions? 
   Contact: 
-  5
-  5
+  naw
+  man
