@@ -1,5 +1,5 @@
 
-  # Project Title 1
+  # Project Title Coltons Project
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ### Table of Contents
@@ -10,15 +10,19 @@
   * [License](#licence)
 
   ## Description
-  2
+  Its Pretty Cool I Think!
 
   ## Installation
-  3
+  Follow the guide
 
   ## Useage
-  4
+  I dont have one yet
 
   ## Credits
-  5
+  Just me!
 
-  ## License
+  ## Test
+  Here are my tests
+
+  ## Questions? 
+  Contact: johnson90@gmail.com

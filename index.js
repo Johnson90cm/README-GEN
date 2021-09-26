@@ -50,6 +50,16 @@ inquirer.prompt(
                     return false;
                 }
             }
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'List your tests here',
+        },
+        {
+            type: 'input',
+            name: 'questions',
+            message: 'Incase users have questions you can input your email here',
         }
     ]
 )
@@ -60,7 +70,9 @@ inquirer.prompt(
     installation,
     usage,
     credits,
-    license
+    license,
+    tests,
+    questions
 }) => {
   const template = 
   `
@@ -86,7 +98,11 @@ inquirer.prompt(
   ## Credits
   ${credits}
 
-  ## License
+  ## Test
+  ${tests}
+
+  ## Questions? 
+  Contact: ${questions}
 `
   
   createNewFile(title,template);
