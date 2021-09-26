@@ -67,7 +67,7 @@ inquirer.prompt(
         {
             type: 'input',
             name: 'github',
-            message: 'In the case users have questions you can input your github here',
+            message: 'In the case users have questions you can input your github here (Optional)',
             
         },
         {
@@ -89,9 +89,9 @@ inquirer.prompt(
 .then(({ title, description, installation, usage, credits, license, tests, github, email }) => {
 var template = 
   `
-  [!License: ${license}](https://img.shields.io/badge/License-MIT-yellow.svg)
+  [[!License: ${license}](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
-  Project Title: ${title}
+  # Project Title: ${title}
 
   ### Table of Contents
   * [Description](#description)
