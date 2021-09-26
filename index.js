@@ -8,6 +8,14 @@ inquirer.prompt(
             type: 'input',
             name: 'title',
             message: 'Please Provide The Title of your Project. (Required)',
+            validate: titleInput => {
+                if (titleInput) {
+                    return true
+                } else {
+                    console.log('Please enter your projects name!');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
@@ -35,7 +43,7 @@ inquirer.prompt(
         {
             type: 'input',
             name: 'credits',
-            message: 'List your collaborators, if any, with links to their GitHub profiles?',
+            message: 'List your collaborators, if any, with links to their GitHub profiles? (Optional)',
         },
         {
             type: 'list',
@@ -54,29 +62,35 @@ inquirer.prompt(
         {
             type: 'input',
             name: 'tests',
-            message: 'List your tests here',
+            message: 'List your tests here (Optional)',
         },
         {
             type: 'input',
-            name: 'questions',
-            message: 'Incase users have questions you can input your email here',
+            name: 'github',
+            message: 'In the case users have questions you can input your github here',
+            
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'In the case users have questions you can input your email here (Required)',
+            validate: emailInput => {
+                if (emailInput) {
+                    return true
+                } else {
+                    console.log('Please enter your licence!');
+                    return false;
+                }
+            }
         }
     ]
 )
 
-.then(({
-    title,
-    description,
-    installation,
-    usage,
-    credits,
-    license,
-    tests,
-    questions
-}) => {
+.then(({ title, description, installation, usage, credits, license, tests, github, email }) => {
+
   const template = 
   `
-  # Project Title ${title}
+  # Project Title: ${title}
   [![License: ${license}](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ### Table of Contents
@@ -98,13 +112,18 @@ inquirer.prompt(
   ## Credits
   ${credits}
 
+  ## License
+  This application is covered under the ${license} License
+
   ## Test
   ${tests}
 
   ## Questions? 
-  Contact: ${questions}
+  Contact: 
+  ${github}
+  ${email}
 `
-  
+
   createNewFile(title,template);
 });
 
@@ -114,6 +133,6 @@ function createNewFile(file, data) {
     if (err) {
         console.log(err)
     }
-    console.log('Your Readme Is Complete')
+    console.log('Your Readme Has Been Generated')
 })
 }
