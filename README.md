@@ -8,7 +8,7 @@
   * [Installation](#installation)
   * [Usage](#usesage)
   * [Credits](#credits)
-  * [License](#licence)
+  * [License](#license)
 
   ## Description
   It will generate a readme based on what you input in the console.
