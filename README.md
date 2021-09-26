@@ -1,6 +1,6 @@
 
-  # Project Title: 2
-  [![License: GPL]
+  # Project Title: 4
+  [![License: GPL](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
   ### Table of Contents
   * [Description](#description)
@@ -10,10 +10,10 @@
   * [License](#licence)
 
   ## Description
-  2
+  4
 
   ## Installation
-  3
+  4
 
   ## Useage
   4
@@ -29,5 +29,5 @@
 
   ## Questions? 
   Contact: 
-  2
-  1
+  4
+  4

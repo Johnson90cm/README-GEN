@@ -91,7 +91,7 @@ inquirer.prompt(
   const template = 
   `
   # Project Title: ${title}
-  [![License: ${license}]
+  [![License: ${license}](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
   ### Table of Contents
   * [Description](#description)
