@@ -98,7 +98,7 @@ var template =
   * [Installation](#installation)
   * [Usage](#usesage)
   * [Credits](#credits)
-  * [License](#licence)
+  * [License](#license)
 
   ## Description
   ${description}
