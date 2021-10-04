@@ -11,8 +11,8 @@
   It will generate a readme based on what you input in the console.
 
   ## Click for Demo
-  [![Demo](./Screenshot.png)](https://drive.google.com/file/d/1-RRJD4Y4eAxpx5nW8K7uaA_YV4vOoMQD/preview)
-
+  [![Demo](./Screenshot.png)](https://youtu.be/L_V0GmzCbyY)
+  
   ## Installation
   Install Node, NPM, run index.js
 
