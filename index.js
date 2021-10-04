@@ -129,7 +129,7 @@ var template =
 
 function createNewFile(file, data) {
 
-    fs.writeFile('./dist/README.md', data, (err) => {
+    fs.writeFile('./dist/readme.md', data, (err) => {
     if (err) {
         console.log(err)
     }
